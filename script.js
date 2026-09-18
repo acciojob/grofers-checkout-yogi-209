@@ -13,8 +13,8 @@ const getSum = () => {
 	}
 
 	const table=document.querySelector('table');
-	const newRow=document.querySelector('tr');
-	const newCell=document.querySelector('td');
+	const newRow=document.createElement('tr');
+	const newCell=document.createElement('td');
 
 	newCell.id='ans';
 	newCell.textContent=total;
