@@ -8,7 +8,7 @@ const getSum = () => {
 
 	let total=0;
 	priceElements.forEach(element)=>{
-	total+=Number(element.textcontent);
+	total+=Number(element.textContent);
 	
 	}
 
