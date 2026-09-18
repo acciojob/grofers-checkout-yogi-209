@@ -17,9 +17,9 @@ const getSum = () => {
 	const newCell=document.querySelector('td');
 
 	newCell.id='ans';
-	new.textContent=total;
+	newCell.textContent=total;
 
-	newRow.appenChild(newCell);
+	newRow.appendChild(newCell);
 	table.appendChild(newRow);
   
 };
