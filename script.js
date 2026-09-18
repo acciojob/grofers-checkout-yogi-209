@@ -12,8 +12,8 @@ const getSum = () => {
 	
 	}
 
-	const table=document.querySelector('.table');
-	const newRow=document.querySelector('.tr');
+	const table=document.querySelector('table');
+	const newRow=document.querySelector('tr');
 	const newCell=document.querySelector('td');
 
 	newCell.id='ans';
